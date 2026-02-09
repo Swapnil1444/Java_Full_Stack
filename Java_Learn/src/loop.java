@@ -39,7 +39,25 @@ public class loop {
             System.out.print(" "+value);
         }
 
+        System.out.println(" \\jame statment:");
 
+        //jamp statement
+        //brack; - brack the 40 element in array
+        for(i=0;i<=arr.length;i++){
+            if(arr[i]==40){
+                break;
+            }else{
+            System.out.println(arr[i]);
+            }
+        }
+
+        // continue; - skip the 40 in array and print all element
+        for(i=0;i<=arr.length;i++){
+            if (arr[i]==40) {
+                continue;
+            }
+            System.out.println(arr[i]);
+        }
     }
     
 }
