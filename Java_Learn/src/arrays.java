@@ -40,6 +40,9 @@ public class arrays {
             System.out.println(" Student roll No: "+Stu[i].roll_no+" name: "+Stu[i].name);
         }
 
+        for(Student stu:Stu){
+            System.out.println("name :"+stu.name+" roll no:"+stu.roll_no+" ");
+        }
         System.out.println(" ");
          //pashing array to method
           int arr2[] = { 3, 1, 2, 5, 4 };
@@ -59,6 +62,84 @@ public class arrays {
             }
             System.out.println();
         }
+
+        System.out.println("\nadd rendam values:");
+
+        // add the rendam value in array 
+        int[][] arr3= new int[3][4];
+        for(int i=0;i<3;i++){
+            for(int j=0;j<4;j++){
+                arr3[i][j]= (int)(Math.random()*100); //use the random method in Math class
+            }
+        }
+        for(int i=0;i<3;i++){
+            for(int j=0;j<4;j++){
+                System.out.print(arr3[i][j]+" ");
+            }
+            System.out.println();
+        }
+
+        System.out.println();
+
+        for(int n[]:arr3){
+            for(int m:n){
+                System.out.print(m+" ");
+            }
+            System.out.println();
+        }
+
+        System.out.println("\n Jagged array:");
+        // jagged array
+
+         int arr4[][]=new int[4][];
+         arr4[0]=new int[3];
+         arr4[1]=new int[4];
+         arr4[2]=new int[5];
+         arr4[3]=new int[2];
+
+         for(int i=0;i<arr4.length;i++){
+            for(int j=0;j<arr4[i].length;j++){
+                arr4[i][j]=(int)(Math.random()*100);
+            }
+         }
+
+         for(int n[]:arr4){
+            for(int m:n){
+                System.out.print(m+" ");
+            }
+            System.out.println();
+         }
+
+          System.out.println("\n 3dimation array:");
+         // 3dimention array 
+         int arr5[][][]=new int[3][4][5];
+
+         for(int i=0;i<arr5.length;i++){
+            for(int j=0;j<arr5[i].length;j++){
+               for(int k=0;k<arr5[i].length;k++){
+
+                    arr5[i][j][k]=(int)(Math.random()*100);
+                  
+                }
+                
+            }
+          
+         }
+
+         for(int i=0;i<arr5.length;i++){
+            for(int j=0;j<arr5[i].length;j++){
+               for(int k=0;k<arr5[i].length;k++){
+
+                   
+                    System.out.print("("+arr5[i][j][k]+"), ");
+                }
+                System.out.println(" ");
+            }
+            System.out.println();
+         }
+
+         
+
 
 
     }
