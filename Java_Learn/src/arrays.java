@@ -1,3 +1,7 @@
+import java.lang.reflect.Array;
+import java.util.*;
+
+
 class Student {
    int roll_no;
    String name;
@@ -139,7 +143,105 @@ public class arrays {
          }
  
          
+         // array class in java 
+         //method in java array classes
 
+
+         int intArr[]={10,30,22,11,60};
+         for (int i : intArr) {
+            System.out.print(i+" ");
+         }
+         System.out.println();
+
+       //   int intArr[] = { 10, 20, 15, 22, 35 };
+
+        Arrays.sort(intArr); // sort array
+
+        int intKey = 22;
+
+        System.out.println(intKey +" find at key in "+Arrays.binarySearch(intArr, intKey)+" element"); //binary search
+
+        //find the element in 1 indext to 3 indext reng to array 
+        System.out.println(intKey +" find at index "+Arrays.binarySearch(intArr,1,5, intKey));
+
+        //compears to array 
+        int intArr1[]={10,30,22,11};
+        System.out.println("compear array:"+Arrays.compare(intArr,intArr1));
+
+       int cop[]= Arrays.copyOf(intArr1, 4);
+       
+        for (int i : intArr1) {
+            System.out.println(i);
+        }
+
+        //check array is equal or not
+        if(Arrays.equals(intArr1, intArr)){
+            System.out.println("equals");
+        }
+        else{
+            System.out.println("not equals");
+        }
+
+
+        //assign the value 
+         Arrays.fill(intArr1, intKey);// add all elemet to fill value in 22 
+         for (int i : intArr1) {
+            System.out.println(i);
+         }
+
+         System.out.println("hash code: "+Arrays.hashCode(intArr1)); //return the hashcode 
+
+         //retun the frist unmach element index
+           Arrays.mismatch(intArr1, intArr1);
+
+           //spliterator
+           Arrays.spliterator(intArr,2,5);
+           
+           for (int i : intArr) {
+            System.out.println(i);
+           }
+
+           // convart array to string
+            System.out.println(Arrays.toString(intArr));
+
+
+
+         
+
+        // System.out.println("to convart array as list: "+Arrays.asList(intArr)); //return the object addres 
+         
+
+
+        //final array 
+         final int[] arrfinal={10,20,30};
+
+        // arrfinal=new int[2]; //comple time error not crate new object in final array
+        for (int i : arrfinal) {
+            System.out.println(i);
+        }
+
+        arrfinal[2]=40; //modifay array
+        for (int i : arrfinal) {
+            System.out.println(i);
+        }
+
+        //find the large element in array
+        int[] arrE={10,22,11,23,45,66};
+
+        Arrays.sort(arrE);
+        for(int i=0;i<arrE.length;i++){
+           // System.out.println(arrE[i]);
+        }
+        int maxE=arrE[arrE.length-1]; //find max element 
+        System.out.println(" max Element:"+maxE); 
+
+        System.out.println("revars:");
+        // print revars in array
+        for(int i=arrE.length-1;i>=0;i--){
+            System.out.println(arrE[i]);
+        }
+        
+        
 
          
 
