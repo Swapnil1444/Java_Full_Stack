@@ -19,8 +19,23 @@
     }
 
 }
+  class A {
+
+   private String name;
+
+   public String getName1(){
+        return name;
+    }
+    public void setName(String name){
+        this.name=name;
+    }
+}
 
 public class methods {
+
+   public static void getmsg(){
+        System.out.println("this is satic metheod!");
+    }
     public static void main(String[] args) {
         calculator1 obj=new calculator1();
 
@@ -34,5 +49,14 @@ public class methods {
         System.out.println(r2);
 
        System.out.println("add:"+obj.add(10,30,89));
+       
+
+    //    A objA=new A();  
+    //    objA.setName("swapnil");
+    //    System.out.println(objA.getName1());
+
+
+
+
     }
 }
