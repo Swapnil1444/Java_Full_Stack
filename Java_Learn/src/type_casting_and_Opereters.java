@@ -18,6 +18,8 @@ public class type_casting_and_Opereters {
         byte b2=10;
         byte b3=30;
         int r=b1*b2;
+
+        
         System.out.println(r);
 
         //increment/decriment
