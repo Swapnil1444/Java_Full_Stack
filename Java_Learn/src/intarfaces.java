@@ -20,14 +20,44 @@ class demo1 implements A1 {
     
 }
 
+ interface Shape1  {
+    double calculateArea();  
+}
+class Circle1 implements Shape1{
+    private double r;
+    public Circle1(double r){
+        this.r=r;
+    }
+    public double calculateArea(){
+        return Math.PI*r*r;
+    }
+}
+ class Rectangle1 implements Shape1  {
+
+    double width;
+    double lenght;
+    public Rectangle1(double width,double lenght){
+        this.lenght=lenght;
+        this.width=width;
+    }
+    public double calculateArea(){
+        return width*lenght;
+    }
+    
+}
 
 
 public class intarfaces {
  public static void main(String[] args) {
-    A1 obj=new demo1();
-    obj.sum(10, 20);
-    obj.dispaly();
+    // A1 obj=new demo1();
+    // obj.sum(10, 20);
+    // obj.dispaly();
 
-    obj.sizeOfInt();
+    // obj.sizeOfInt();
+
+    Shape1 c=new Circle1(10.5);
+    System.out.println(c.calculateArea());
+    Shape1 r=new Rectangle1(77, 55);
+    System.out.println(r.calculateArea());
  }
 }
