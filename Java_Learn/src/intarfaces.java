@@ -6,12 +6,16 @@
 }
 class demo1 implements A1 {
   
+    int sum1;
    public void dispaly(){
         System.out.println(sum(10, 20));
     }
 
    public int sum(int a,int b){
-        return a+b;
+        return sum1=a+b;
+    }
+    public void sizeOfInt(){
+        System.out.println(sum1);
     }
     
 }
@@ -23,5 +27,7 @@ public class intarfaces {
     A1 obj=new demo1();
     obj.sum(10, 20);
     obj.dispaly();
+
+    obj.sizeOfInt();
  }
 }
