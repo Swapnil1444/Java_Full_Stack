@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+
+    </head>
+    <script>
+        function validetion(){
+
+            let name=document.getElementById("name").value;
+            let age=document.getElementById("age").value;
+            let number=document.getElementById("number").value;
+
+            if(name==""){
+                alert("name canbe ematy");
+                return false;
+            }
+            if(number.lenght !=10){
+                alert("phone numeber is 10 digits..")
+                return false;
+            }
+            alert("from submit..");
+            return true;
+
+        }
+        function hidetext(){
+            $("#hello").hide();
+        }
+    </script>
+    <body>
+        <form onsubmit="return validetion()">
+            name <input type="text" id="name">
+            age <input type="text" id="age">
+            number<input type="text" id="number">
+            <input type="submit" id="submit">
+            
+        </form>
+
+        <form >
+<br>
+            <p id ="hello">helllo</p>
+            <button onclick="hidetext()">hide text</button>
+        </form>
+    </body>
+</html>
