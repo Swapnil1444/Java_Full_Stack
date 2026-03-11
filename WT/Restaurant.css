@@ -1,0 +1,23 @@
+h1{
+color: darkred;
+text-align: center;
+font-family: Arial;
+}
+
+h2{
+color: green;
+font-family: Verdana;
+}
+
+p{
+font-size: 18px;
+}
+
+table{
+border-collapse: collapse;
+width: 50%;
+}
+
+th{
+background-color: lightgray;
+}
