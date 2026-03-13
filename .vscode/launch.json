@@ -4,7 +4,41 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
+        {
+            "type": "java",
+            "name": "Hybrid_Inheritance",
+            "request": "launch",
+            "mainClass": "Inheritance.Hybrid_Inheritance",
+            "projectName": "Java_Learn"
+        },
+        {
+            "type": "java",
+            "name": "Multiple_Inheritance",
+            "request": "launch",
+            "mainClass": "Inheritance.Multiple_Inheritance",
+            "projectName": "Java_Learn"
+        },
+        {
+            "type": "java",
+            "name": "Hierarchical_Inheritance",
+            "request": "launch",
+            "mainClass": "Inheritance.Hierarchical_Inheritance",
+            "projectName": "Java_Learn"
+        },
+        {
+            "type": "java",
+            "name": "Multilevel_inheritance",
+            "request": "launch",
+            "mainClass": "Inheritance.Multilevel_inheritance",
+            "projectName": "Java_Learn"
+        },
+        {
+            "type": "java",
+            "name": "Single_Inheritance",
+            "request": "launch",
+            "mainClass": "Inheritance.Single_Inheritance",
+            "projectName": "Java_Learn"
+        },
         {
             "type": "msedge",
             "request": "launch",
