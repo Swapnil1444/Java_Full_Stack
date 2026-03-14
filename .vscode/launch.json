@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "user_defind_packege",
+            "request": "launch",
+            "mainClass": "oop.packages.user_defind_packege",
+            "projectName": "Java_Learn"
+        },
+        {
+            "type": "java",
             "name": "Runtime_Polymorphism",
             "request": "launch",
             "mainClass": "Polymorphism1.Runtime_Polymorphism",
