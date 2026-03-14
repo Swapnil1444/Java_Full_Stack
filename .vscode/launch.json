@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Runtime_Polymorphism",
+            "request": "launch",
+            "mainClass": "Polymorphism1.Runtime_Polymorphism",
+            "projectName": "Java_Learn"
+        },
+        {
+            "type": "java",
+            "name": "Compile_Time",
+            "request": "launch",
+            "mainClass": "Polymorphism.Compile_Time",
+            "projectName": "Java_Learn"
+        },
+        {
+            "type": "java",
             "name": "Method_overriding",
             "request": "launch",
             "mainClass": "Inheritance.Method_overriding",
