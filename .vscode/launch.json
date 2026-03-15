@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Connection1",
+            "request": "launch",
+            "mainClass": "JDBC_databse.Connection1",
+            "projectName": "Java_Learn"
+        },
+        {
+            "type": "java",
+            "name": "pac_util",
+            "request": "launch",
+            "mainClass": "oop.packages.bilding_packages.pac_util",
+            "projectName": "Java_Learn"
+        },
+        {
+            "type": "java",
             "name": "user_defind_packege",
             "request": "launch",
             "mainClass": "oop.packages.user_defind_packege",
