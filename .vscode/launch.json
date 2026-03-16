@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Privete_Ineterface",
+            "request": "launch",
+            "mainClass": "oop.Interface.Privete_Ineterface",
+            "projectName": "Java_Learn"
+        },
+        {
+            "type": "java",
             "name": "Connection1",
             "request": "launch",
             "mainClass": "JDBC_databse.Connection1",
