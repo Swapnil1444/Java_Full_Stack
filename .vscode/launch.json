@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "mulipale_inheritans",
+            "request": "launch",
+            "mainClass": "oop.Interface.mulipale_inheritans",
+            "projectName": "Java_Learn"
+        },
+        {
+            "type": "java",
             "name": "Privete_Ineterface",
             "request": "launch",
             "mainClass": "oop.Interface.Privete_Ineterface",
