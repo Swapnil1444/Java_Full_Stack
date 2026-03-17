@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "functionInterface_alotestion",
+            "request": "launch",
+            "mainClass": "oop.Interface.functionInterface_alotestion",
+            "projectName": "Java_Learn"
+        },
+        {
+            "type": "java",
+            "name": "Lambada_Expressions",
+            "request": "launch",
+            "mainClass": "LambdaExpressionsandStreams.Lambada_Expressions",
+            "projectName": "Java_Learn"
+        },
+        {
+            "type": "java",
+            "name": "enum_satas",
+            "request": "launch",
+            "mainClass": "oop.enum_statas.enum_satas",
+            "projectName": "Java_Learn"
+        },
+        {
+            "type": "java",
             "name": "mulipale_inheritans",
             "request": "launch",
             "mainClass": "oop.Interface.mulipale_inheritans",
