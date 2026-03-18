@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Interface_Inside_Interface",
+            "request": "launch",
+            "mainClass": "oop.Interface.NestedInterface.Interface_Inside_Interface",
+            "projectName": "Java_Learn"
+        },
+        {
+            "type": "java",
+            "name": "Nested_Interface_Inside_Class",
+            "request": "launch",
+            "mainClass": "oop.Interface.NestedInterface.Nested_Interface_Inside_Class",
+            "projectName": "Java_Learn"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "functionInterface_alotestion",
             "request": "launch",
             "mainClass": "oop.Interface.functionInterface_alotestion",
