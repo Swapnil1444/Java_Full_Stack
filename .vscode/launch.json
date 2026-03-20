@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "demo",
+            "request": "launch",
+            "mainClass": "ExceptionHandling.demo",
+            "projectName": "Java_Learn"
+        },
+        {
+            "type": "java",
+            "name": "divideByZero_expation",
+            "request": "launch",
+            "mainClass": "ExceptionHandling.divideByZero_expation",
+            "projectName": "Java_Learn"
+        },
+        {
+            "type": "java",
             "name": "Interface_Inside_Interface",
             "request": "launch",
             "mainClass": "oop.Interface.NestedInterface.Interface_Inside_Interface",
