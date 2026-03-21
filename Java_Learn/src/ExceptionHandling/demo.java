@@ -16,6 +16,8 @@ public class demo {
             System.out.println("Array index is out of bounds..");
         }catch(Exception e){
             System.out.println(e);
+        }finally{
+            System.out.println("finally complet code output..");
         }
         System.out.println(r);
     }
