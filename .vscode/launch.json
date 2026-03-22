@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "use_throw1",
+            "request": "launch",
+            "mainClass": "ExceptionHandling.use_throw1",
+            "projectName": "Java_Learn"
+        },
+        {
+            "type": "java",
+            "name": "use_throw",
+            "request": "launch",
+            "mainClass": "ExceptionHandling.use_throw",
+            "projectName": "Java_Learn"
+        },
+        {
+            "type": "java",
             "name": "demo",
             "request": "launch",
             "mainClass": "ExceptionHandling.demo",
