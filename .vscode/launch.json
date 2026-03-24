@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "nested_try_catch",
+            "request": "launch",
+            "mainClass": "ExceptionHandling.nested_try_catch",
+            "projectName": "Java_Learn"
+        },
+        {
+            "type": "java",
             "name": "throws_Exception",
             "request": "launch",
             "mainClass": "ExceptionHandling.throws_Exception",
