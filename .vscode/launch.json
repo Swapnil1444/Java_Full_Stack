@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "wrapperclass_q",
+            "request": "launch",
+            "mainClass": "Besic.wrapperclass_q",
+            "projectName": "Java_Learn"
+        },
+        {
+            "type": "java",
+            "name": "AStar8Puzzle",
+            "request": "launch",
+            "mainClass": "AStar8Puzzle",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Assignment_01",
+            "request": "launch",
+            "mainClass": "Assignment_01",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "GraphTraversal",
+            "request": "launch",
+            "mainClass": "GraphTraversal",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Assignment1",
+            "request": "launch",
+            "mainClass": "Assignment1",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "DFS$Assignment1",
+            "request": "launch",
+            "mainClass": "DFS$Assignment1",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "nested_try_catch",
             "request": "launch",
             "mainClass": "ExceptionHandling.nested_try_catch",
