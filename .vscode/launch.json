@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "NumberGuessingGame",
+            "request": "launch",
+            "mainClass": "NumberGuessingGame",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "wrapperclass_q",
             "request": "launch",
             "mainClass": "Besic.wrapperclass_q",
