@@ -16,11 +16,12 @@ public class NumberGuessingGame {
                     System.out.println("Congratulations! You guessed the correct number. "+inputNum);
                     break;               
                 }else if(inputNum<gessNum){
-                    System.out.println("Number is grathar than");
+                    System.out.println("Number is grathar than "+inputNum);
                 }else{
-                    System.out.println("Numebr is less than");
+                    System.out.println("Numebr is less than "+inputNum);
                 }
         }
+        System.out.println("You've exhausted all attempts. The correct number was:"+gessNum);
 
 
 
