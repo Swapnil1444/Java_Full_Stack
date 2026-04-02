@@ -1,5 +1,3 @@
-import heapq
-
 class Node:
     def __init__(self, board, g, h, parent):
         self.board = board
@@ -7,9 +5,6 @@ class Node:
         self.h = h
         self.f = g + h
         self.parent = parent
-
-    def __lt__(self, other):
-        return self.f < other.f
 
 
 # Goal state
@@ -20,7 +15,7 @@ goal = [
 ]
 
 
-# Heuristic: misplaced tiles
+# Heuristic (misplaced tiles)
 def calculate_h(board):
     count = 0
     for i in range(3):
@@ -30,7 +25,7 @@ def calculate_h(board):
     return count
 
 
-# Check goal
+# Goal check
 def is_goal(board):
     return board == goal
 
@@ -47,7 +42,7 @@ def print_board(board):
     print()
 
 
-# Generate neighbors
+# Get neighbors
 def get_neighbors(node):
     neighbors = []
     x, y = 0, 0
@@ -75,16 +70,19 @@ def get_neighbors(node):
     return neighbors
 
 
-# A* Algorithm
+# A* using LIST (no heapq)
 def solve(start):
-    open_list = []
-    closed = set()
+    open_list = []   # simple list
+    closed = []
 
     start_node = Node(start, 0, calculate_h(start), None)
-    heapq.heappush(open_list, start_node)
+    open_list.append(start_node)
 
     while open_list:
-        current = heapq.heappop(open_list)
+        # Sort list based on f value (lowest first)
+        open_list.sort(key=lambda x: x.f)
+
+        current = open_list.pop(0)
 
         print_board(current.board)
 
@@ -92,11 +90,11 @@ def solve(start):
             print("Goal Reached!")
             return
 
-        closed.add(str(current.board))
+        closed.append(current.board)
 
         for neighbor in get_neighbors(current):
-            if str(neighbor.board) not in closed:
-                heapq.heappush(open_list, neighbor)
+            if neighbor.board not in closed:
+                open_list.append(neighbor)
 
     print("No solution found.")
 
