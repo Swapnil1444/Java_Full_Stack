@@ -22,6 +22,7 @@ public class Lambada_Expressions {
         System.out.println(obj.cal(10, 20));
 
         Cal mul= (a,b)-> a*b;
+        int i;
         System.out.println(mul.cal(10,80));
 
         //type
