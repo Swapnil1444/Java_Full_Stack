@@ -9,5 +9,15 @@ public class StringTocans{
         while (st.hasMoreElements()) {
            System.out.println( st.nextToken());
         }
+       String s1="hello : swapnil : keshav : supekar";
+        StringTokenizer st1=new StringTokenizer(s1," : ");
+       
+       System.out.println( st1.countTokens());
+        while (st1.hasMoreElements()) {
+            
+           System.out.println(st1.nextToken());
+        }
+          
+          
     }
 }
