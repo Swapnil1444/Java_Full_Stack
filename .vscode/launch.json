@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "strings",
+            "request": "launch",
+            "mainClass": "Besic.String.strings",
+            "projectName": "Java_Learn"
+        },
+        {
+            "type": "java",
             "name": "StringTocans",
             "request": "launch",
             "mainClass": "Besic.String.StringTocans",

@@ -1,4 +1,4 @@
-package Besic;
+package Besic.String;
 public class strings {
     public static void main(String[] args) {
         String fname="Swapnil";
@@ -108,8 +108,20 @@ public class strings {
        System.out.println(fname.intern());
 
        
+       String s1="swapnil";
+       String s2=null;
+       String s3="";
 
+      // s1=s1.concat(s2); // NullPointgerExption  uing the null value are the pass in the this method . 
+       System.out.println(s1);
 
+       System.out.println("revers a string :");
+       for(int i=s1.length()-1;i>=0;i--){
+          char ch11=s1.charAt(i);
+          String ch111=Character.toString(ch11);
+          s3=s3.concat(ch111);
+       }
+       System.out.println(s3);
 
 
 
