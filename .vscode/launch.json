@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RSAExample",
+            "request": "launch",
+            "mainClass": "RSAExample",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "AESExample",
+            "request": "launch",
+            "mainClass": "AESExample",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "DESExample",
+            "request": "launch",
+            "mainClass": "DESExample",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "TranspositionCipher",
+            "request": "launch",
+            "mainClass": "TranspositionCipher",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "BitwiseOperation",
+            "request": "launch",
+            "mainClass": "BitwiseOperation",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "strings",
             "request": "launch",
             "mainClass": "Besic.String.strings",
