@@ -1,0 +1,15 @@
+<? xml version="1.0" encoding="UTF-8"?>
+
+//validtion of XML document using DTD
+<!DOCTYPE student [
+<!ELEMENT student (name, age, course)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT course (#PCDATA)>
+]>
+
+<student>
+    <name>Swapnil</name>
+    <age>21</age>
+    <course>Computer Science</course>
+</student>    

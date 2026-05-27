@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DOMExample",
+            "request": "launch",
+            "mainClass": "DOMExample",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "RSAExample",
             "request": "launch",
             "mainClass": "RSAExample",
