@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PublishService",
+            "request": "launch",
+            "mainClass": "PublishService",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "DOMExample",
             "request": "launch",
             "mainClass": "DOMExample",
