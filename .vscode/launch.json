@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "two_sum",
+            "request": "launch",
+            "mainClass": "two_sum",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "solution",
+            "request": "launch",
+            "mainClass": "solution",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "rotate_array",
             "request": "launch",
             "mainClass": "rotate_array",
