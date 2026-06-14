@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "rotate_array",
+            "request": "launch",
+            "mainClass": "rotate_array",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Transpose_matrix",
+            "request": "launch",
+            "mainClass": "Transpose_matrix",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Array_2D",
+            "request": "launch",
+            "mainClass": "Array_2D",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "TwoD_array",
+            "request": "launch",
+            "mainClass": "TwoD_array",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "subArray",
+            "request": "launch",
+            "mainClass": "subArray",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Reverse_array",
+            "request": "launch",
+            "mainClass": "Reverse_array",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Max_value_array",
+            "request": "launch",
+            "mainClass": "Max_value_array",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "PublishService",
             "request": "launch",
             "mainClass": "PublishService",
