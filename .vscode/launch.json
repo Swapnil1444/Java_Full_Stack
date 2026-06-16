@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Count_Primes",
+            "request": "launch",
+            "mainClass": "Count_Primes",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "remove_prime",
+            "request": "launch",
+            "mainClass": "remove_prime",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "remove_even",
+            "request": "launch",
+            "mainClass": "remove_even",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Arraylist_opertion",
+            "request": "launch",
+            "mainClass": "Arraylist_opertion",
+            "projectName": ""
+        },
+        {
+            "type": "java",
             "name": "two_sum",
             "request": "launch",
             "mainClass": "two_sum",
